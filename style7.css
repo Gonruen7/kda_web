@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  background: #f8f9fa;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #1E3A8A;
+}
+.navbar .logo {
+  color: gold;
+  font-weight: bold;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: gold;
+}
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url('images/school.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero h2 {
+  font-size: 2.5em;
+}
+.btn {
+  background: gold;
+  color: #1E3A8A;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+footer {
+  background: #1E3A8A;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+footer p {
+  margin: 7px 0;
+}

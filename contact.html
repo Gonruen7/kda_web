@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | King David Academy</title>
+  <link rel="stylesheet" href="style.css" />
+    <img src="images/logo imageGPT.png" alt="King David Academy Logo" width="200" height="134">
+</head>
+<body>
+  <header class="sub-header">
+    <nav class="navbar">
+      <h1 class="logo">👑 King David Academy</h1>
+      <ul>
+        <li><a href="kda website.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <h2>Contact Us</h2>
+  </header>
+
+  <section class="contact">
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 King David Academy</p>
+  </footer>
+
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", e => {
+      e.preventDefault();
+      alert("Thank you for contacting King David Academy!");
+      e.target.reset();
+    });
+  </script>
+</body>
+</html>
